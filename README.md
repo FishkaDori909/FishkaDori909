@@ -3,6 +3,12 @@
 </p>
 
 <p align="center">
+  <a href="https://t.me/fishkadori"><img src="./assets/social-telegram.svg" width="32%" alt="Telegram" /></a>
+  <a href="https://instagram.com/nikitinask"><img src="./assets/social-instagram.svg" width="32%" alt="Instagram" /></a>
+  <a href="mailto:valarinik@gmail.com"><img src="./assets/social-gmail.svg" width="32%" alt="Gmail" /></a>
+</p>
+
+<p align="center">
   <img src="./assets/experience.svg" width="100%" />
 </p>
 
