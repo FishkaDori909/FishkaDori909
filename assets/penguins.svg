@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 130" width="800" height="130">
+  <defs>
+    <!-- Пингвин, ноги в точке (0,0) -->
+    <g id="peng">
+      <ellipse cx="-12" cy="-20" rx="3.5" ry="9" fill="#2b3a55" transform="rotate(18 -12 -20)"/>
+      <ellipse cx="12" cy="-20" rx="3.5" ry="9" fill="#2b3a55" transform="rotate(-18 12 -20)"/>
+      <ellipse cx="0" cy="-20" rx="13" ry="18" fill="#2b3a55" stroke="#9db4d6" stroke-width="0.8"/>
+      <ellipse cx="0" cy="-16" rx="8.5" ry="13" fill="#ffffff"/>
+      <circle cx="0" cy="-34" r="10" fill="#2b3a55" stroke="#9db4d6" stroke-width="0.8"/>
+      <ellipse cx="0" cy="-31.5" rx="6.8" ry="5.8" fill="#ffffff"/>
+      <circle cx="-3" cy="-34" r="1.6" fill="#1a1a1a"/>
+      <circle cx="3" cy="-34" r="1.6" fill="#1a1a1a"/>
+      <circle cx="-2.5" cy="-34.6" r="0.5" fill="#ffffff"/>
+      <circle cx="3.5" cy="-34.6" r="0.5" fill="#ffffff"/>
+      <path d="M-2.6 -31 L2.6 -31 L0 -27.8 Z" fill="#f7a541"/>
+      <circle cx="-5.2" cy="-30" r="1.4" fill="#ffb3c1" opacity="0.85"/>
+      <circle cx="5.2" cy="-30" r="1.4" fill="#ffb3c1" opacity="0.85"/>
+      <ellipse cx="-5" cy="-1" rx="4.5" ry="2" fill="#f7a541"/>
+      <ellipse cx="5" cy="-1" rx="4.5" ry="2" fill="#f7a541"/>
+    </g>
+    <path id="heart" d="M0 0 c-3 -4 -9 -1 -5 4 l5 5 l5 -5 c4 -5 -2 -8 -5 -4 z" fill="#ff8fab"/>
+  </defs>
+
+  <!-- Льдина -->
+  <rect x="20" y="104" width="760" height="7" rx="3.5" fill="#bcd4f0" opacity="0.45"/>
+
+  <!-- Снежинки -->
+  <g fill="#bcd4f0">
+    <circle cx="40" r="2"><animate attributeName="cy" values="-5;135" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="110" r="1.5"><animate attributeName="cy" values="-5;135" dur="9s" begin="-3s" repeatCount="indefinite"/></circle>
+    <circle cx="190" r="2.4"><animate attributeName="cy" values="-5;135" dur="8s" begin="-6s" repeatCount="indefinite"/></circle>
+    <circle cx="250" r="1.6"><animate attributeName="cy" values="-5;135" dur="10s" begin="-1s" repeatCount="indefinite"/></circle>
+    <circle cx="340" r="2"><animate attributeName="cy" values="-5;135" dur="7.5s" begin="-4s" repeatCount="indefinite"/></circle>
+    <circle cx="410" r="1.4"><animate attributeName="cy" values="-5;135" dur="9.5s" begin="-7s" repeatCount="indefinite"/></circle>
+    <circle cx="470" r="2.2"><animate attributeName="cy" values="-5;135" dur="8.5s" begin="-2s" repeatCount="indefinite"/></circle>
+    <circle cx="560" r="1.6"><animate attributeName="cy" values="-5;135" dur="7s" begin="-5s" repeatCount="indefinite"/></circle>
+    <circle cx="620" r="2"><animate attributeName="cy" values="-5;135" dur="10s" begin="-8s" repeatCount="indefinite"/></circle>
+    <circle cx="700" r="1.5"><animate attributeName="cy" values="-5;135" dur="8s" begin="-3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="760" r="2.3"><animate attributeName="cy" values="-5;135" dur="9s" begin="-6.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Покачивающиеся пингвины -->
+  <g transform="translate(130 106) scale(1.15)">
+    <g><animateTransform attributeName="transform" type="rotate" values="-7;7;-7" dur="0.9s" repeatCount="indefinite"/><use xlink:href="#peng" href="#peng"/></g>
+  </g>
+  <g transform="translate(168 106) scale(0.6)">
+    <g><animateTransform attributeName="transform" type="rotate" values="8;-8;8" dur="0.7s" repeatCount="indefinite"/><use xlink:href="#peng" href="#peng"/></g>
+  </g>
+
+  <g transform="translate(400 106) scale(1.25)">
+    <g><animateTransform attributeName="transform" type="rotate" values="-5;5;-5" dur="1.2s" repeatCount="indefinite"/><use xlink:href="#peng" href="#peng"/></g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -14" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2.4s" repeatCount="indefinite"/>
+      <use xlink:href="#heart" href="#heart" transform="translate(0 -52)"/>
+    </g>
+  </g>
+
+  <g transform="translate(660 106) scale(0.95)">
+    <g><animateTransform attributeName="transform" type="rotate" values="6;-6;6" dur="1s" repeatCount="indefinite"/><use xlink:href="#peng" href="#peng"/></g>
+  </g>
+
+  <!-- Пингвин, который идёт через весь баннер, и малыш за ним -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-60 106;860 106" dur="16s" repeatCount="indefinite"/>
+    <g transform="scale(0.85)">
+      <g><animateTransform attributeName="transform" type="rotate" values="-9;9;-9" dur="0.5s" repeatCount="indefinite"/><use xlink:href="#peng" href="#peng"/></g>
+    </g>
+    <g transform="translate(-30 0) scale(0.5)">
+      <g><animateTransform attributeName="transform" type="rotate" values="9;-9;9" dur="0.4s" repeatCount="indefinite"/><use xlink:href="#peng" href="#peng"/></g>
+    </g>
+  </g>
+</svg>
