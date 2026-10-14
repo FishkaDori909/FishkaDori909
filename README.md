@@ -21,15 +21,15 @@
 </p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" />
+  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" width="100%" />
 </p>
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" width="49%" />
-  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" />
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" width="49%" />
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=FishkaDori909&theme=dark&background=0D1117&border=30363D&ring=8B949E&fire=C9D1D9&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=C9D1D9&sideLabels=8B949E&dates=6E7681&stroke=30363D&border_radius=8&date_format=j%20M%5B%20Y%5D" width="100%" />
+  <img src="https://streak-stats.demolab.com?user=FishkaDori909&theme=tokyonight&background=1A1B27&border=30363D&stroke=30363D&ring=38BDAE&fire=BF91F3&currStreakNum=38BDAE&currStreakLabel=38BDAE&sideNums=70A5FD&sideLabels=BF91F3&dates=8B949E&border_radius=8&date_format=j%20M%5B%20Y%5D" width="100%" />
 </p>
 
 <p align="center">
