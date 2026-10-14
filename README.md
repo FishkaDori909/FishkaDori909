@@ -11,6 +11,10 @@
 </p>
 
 <p align="center">
+  <img src="./assets/terminal.svg" width="100%" />
+</p>
+
+<p align="center">
   <img src="https://skillicons.dev/icons?i=py,cpp,js,css,postgres,docker,linux,vscode&theme=dark&perline=8" />
   <br><br>
   <img src="https://img.shields.io/badge/DBeaver-161B22?style=for-the-badge&logo=dbeaver&logoColor=E6EDF3" />

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 312" width="800" height="312">
+  <defs>
+    <linearGradient id="acc" x1="0" x2="1"><stop offset="0" stop-color="#00d6d2"/><stop offset="1" stop-color="#a371f7"/></linearGradient>
+    <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#ffffff" opacity="0.025"/></pattern>
+    <clipPath id="c1"><rect x="234" y="66" height="22" width="0"><animate attributeName="width" values="0.0;8.6;17.2;25.8;34.4;43.0;51.6" calcMode="discrete" begin="0.70s" dur="0.42s" fill="freeze"/></rect></clipPath><clipPath id="c2"><rect x="234" y="124" height="22" width="0"><animate attributeName="width" values="0.0;8.6;17.2;25.8;34.4;43.0;51.6;60.2;68.8;77.4;86.0;94.6;103.2;111.8" calcMode="discrete" begin="2.02s" dur="0.91s" fill="freeze"/></rect></clipPath><clipPath id="c3"><rect x="234" y="182" height="22" width="0"><animate attributeName="width" values="0.0;8.6;17.2;25.8;34.4;43.0;51.6;60.2;68.8;77.4;86.0;94.6;103.2;111.8;120.4;129.0;137.6;146.2" calcMode="discrete" begin="3.83s" dur="1.19s" fill="freeze"/></rect></clipPath><clipPath id="c4"><rect x="42" y="210" height="18" width="0"><animate attributeName="width" values="0;300" begin="5.37s" dur="1.4s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="799" height="311" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <path d="M1 40V9a8 8 0 0 1 8-8h782a8 8 0 0 1 8 8v31z" fill="#161b22"/>
+  <rect x="1" y="40" width="798" height="1" fill="#30363d"/>
+  <circle cx="24" cy="21" r="5.5" fill="#f85149" opacity="0.85"/>
+  <circle cx="42" cy="21" r="5.5" fill="#d29922" opacity="0.85"/>
+  <circle cx="60" cy="21" r="5.5" fill="#3fb950" opacity="0.85"/>
+  <text x="400.0" y="25" text-anchor="middle" font-family="Consolas, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="12" letter-spacing="1" fill="#8b949e">fishkadori909 — bash</text>
+  <rect x="1" y="41" width="798" height="270" fill="url(#lines)"/>
+  <g font-family="Consolas, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="14">
+        <text x="28" y="82" opacity="0" textLength="196" lengthAdjust="spacingAndGlyphs" fill="#3fb950">fishkadori909@github:~$<set attributeName="opacity" to="1" begin="0.40s" fill="freeze"/></text>
+    <text x="234" y="82" fill="#e6edf3" clip-path="url(#c1)">whoami</text>
+    <text x="28" y="108" opacity="0" fill="#c9d1d9">full-stack / data engineer  ·  ТюмГУ, 4 курс<set attributeName="opacity" to="1" begin="1.47s" fill="freeze"/></text>
+    <text x="28" y="140" opacity="0" textLength="196" lengthAdjust="spacingAndGlyphs" fill="#3fb950">fishkadori909@github:~$<set attributeName="opacity" to="1" begin="1.72s" fill="freeze"/></text>
+    <text x="234" y="140" fill="#e6edf3" clip-path="url(#c2)">cat stack.txt</text>
+    <text x="28" y="166" opacity="0" fill="#00d6d2">python  c++  js  css  postgresql  dbeaver  docker  linux<set attributeName="opacity" to="1" begin="3.28s" fill="freeze"/></text>
+    <text x="28" y="198" opacity="0" textLength="196" lengthAdjust="spacingAndGlyphs" fill="#3fb950">fishkadori909@github:~$<set attributeName="opacity" to="1" begin="3.53s" fill="freeze"/></text>
+    <text x="234" y="198" fill="#e6edf3" clip-path="url(#c3)">./scan --penguins</text>
+    <text x="28" y="224" opacity="0" fill="#6e7681">[<set attributeName="opacity" to="1" begin="5.37s" fill="freeze"/></text>
+    <rect x="42" y="212" width="300" height="12" fill="#161b22" opacity="0"><set attributeName="opacity" to="1" begin="5.37s" fill="freeze"/></rect>
+    <rect x="42" y="212" width="300" height="12" fill="url(#acc)" clip-path="url(#c4)"/>
+    <text x="346" y="224" opacity="0" fill="#6e7681">]<set attributeName="opacity" to="1" begin="5.37s" fill="freeze"/></text>
+    <text x="364" y="224" opacity="0" fill="#c9d1d9">100%<set attributeName="opacity" to="1" begin="6.77s" fill="freeze"/></text>
+    <text x="28" y="250" opacity="0" fill="#3fb950">[OK] 5 penguins detected · all systems nominal<set attributeName="opacity" to="1" begin="6.97s" fill="freeze"/></text>
+    <text x="28" y="282" opacity="0" textLength="196" lengthAdjust="spacingAndGlyphs" fill="#3fb950">fishkadori909@github:~$<set attributeName="opacity" to="1" begin="7.22s" fill="freeze"/></text>
+    <rect x="234" y="268" width="9" height="17" fill="#00d6d2" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="7.22s" repeatCount="indefinite"/></rect>
+  </g>
+  <g stroke="url(#acc)" stroke-width="2" fill="none">
+    <path d="M766 300H788V278"/>
+  </g>
+</svg>
