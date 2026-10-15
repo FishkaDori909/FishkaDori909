@@ -8,9 +8,6 @@
 </p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/custom/0-profile-details.svg" width="600" />
-</p>
-<p align="center">
   <img src="./profile-summary-card-output/custom/3-stats.svg" width="296" />
   <img src="./profile-summary-card-output/custom/2-most-commit-language.svg" width="296" />
 </p>
