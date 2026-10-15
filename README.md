@@ -21,5 +21,5 @@
 </p>
 
 <p align="center">
-  <a href="https://leetcode.com/u/FishkaDori/"><img src="https://leetcard.jacoblin.cool/FishkaDori?theme=light&font=Inter&ext=heatmap&border=1&radius=8&width=600" width="600" alt="LeetCode stats" /></a>
+  <a href="https://leetcode.com/u/FishkaDori/"><img src="https://leetcard.jacoblin.cool/FishkaDori?theme=light&font=Inter&border=1&radius=8&width=600" width="600" alt="LeetCode stats" /></a>
 </p>
