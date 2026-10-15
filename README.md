@@ -3,10 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://t.me/fishkadori"><img src="./assets/social-telegram.svg" width="40%" alt="Telegram" /></a>
-</p>
-
-<p align="center">
   <img src="https://skillicons.dev/icons?i=py,cpp,js,css,postgres,docker,linux,vscode&theme=dark&perline=8" />
   <br><br>
   <img src="https://img.shields.io/badge/DBeaver-161B22?style=for-the-badge&logo=dbeaver&logoColor=E6EDF3" />
