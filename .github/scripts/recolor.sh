@@ -5,9 +5,9 @@ SRC=profile-summary-card-output/tokyonight
 DST=profile-summary-card-output/custom
 rm -rf "$DST" && cp -r "$SRC" "$DST"
 sed -i -E \
-  -e 's/stroke="#1a1b27"/stroke="#30363d"/I' \
-  -e 's/#1a1b27/#0d1117/gI' \
-  -e 's/#70a5fd/#e6edf3/gI' \
-  -e 's/#38bdae/#56d364/gI' \
-  -e 's/#bf91f3/#c9506b/gI' \
+  -e 's/stroke="#1a1b27"/stroke="#d0d7de"/I' \
+  -e 's/#1a1b27/#ffffff/gI' \
+  -e 's/#70a5fd/#1f2328/gI' \
+  -e 's/#38bdae/#1a7f37/gI' \
+  -e 's/#bf91f3/#a4243b/gI' \
   "$DST"/*.svg
