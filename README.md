@@ -19,3 +19,7 @@
 <p align="center">
   <img alt="contributions" src="https://raw.githubusercontent.com/FishkaDori909/FishkaDori909/output/github-snake.svg" width="600" />
 </p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/FishkaDori/"><img src="https://leetcard.jacoblin.cool/FishkaDori?theme=light&font=Inter&ext=heatmap&border=1&radius=8&width=600" width="600" alt="LeetCode stats" /></a>
+</p>
