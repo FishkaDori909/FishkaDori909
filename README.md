@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./assets/header.svg" width="600" />
-</p>
+
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,cpp,js,css,postgres,docker,linux,vscode&theme=light&perline=8" height="48" />
